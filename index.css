@@ -1,3 +1,9 @@
+#container1 {
+    display: flex;
+    /* border: none;
+    border-left: solid 2px purple; */
+
+}
 
 .input{
     padding: 16px 16px;
@@ -13,38 +19,31 @@ button{
     border: none;
     border-radius: 5px;
 
-}
+} 
 .icons{
     margin-left: 30%;
 }
 .image{
-    margin-top: 0%;
+    
+    padding: 12px 16px;
+    width: 80%;
+    
 }
-.community{
+ .community{
     color: purple;
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#mine{
-display: grid;
-grid-template-rows: 100px auto;
-grid-template-columns: 400px auto;
-margin: auto;
-margin-top: 0%;
-text-align: left;
-max-width: 800px;
-border-left: solid purple 2px;
-margin-left: 60%;
-}
-.container{
-    padding: 10px;
-    border: none;
-    border-right: solid purple 2px;
-    padding-top: 0%;
-}
-.myforms{
-    display: grid;
-    margin-top: 0%;
-}
+} 
+  #mine{
+margin: 0 auto;
+padding: 12px 16px;
+}  
 
+ .myforms{
+    display: flex;
+    border: none;
+    padding: 100px;
+    margin: 0 auto;
+    border-left: solid 2px purple;
+}  
 
